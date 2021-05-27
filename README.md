@@ -15,8 +15,8 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - Durante lo show usiamo un file PDF generato ad hoc sulla base della scaletta dello show, indicativamente con una canzone per pagina.
 - Per andare avanti e indietro usiamo un due pedali collegati via USB (vedi progetto PushPush) che inviano i due "keypress" necessari per pagina avanti e pagina indietro.
 - Il file con i testi show può 
--- essere preparato prima e poi caricato nel raspberry oppure
--- generato direttamente sul raspberry partendo dai  testi delle canzoni salvati in singoli file PDF (un file per ogni canzone) e sempre disponibili nella cartella "originali" sul RPI.
+  - essere preparato prima e poi caricato nel raspberry oppure
+  - generato direttamente sul raspberry partendo dai  testi delle canzoni salvati in singoli file PDF (un file per ogni canzone) e sempre disponibili nella cartella "originali" sul RPI.
 - Per generare il file dello show partendo dai singoli pdf usiamo 'pdfmixtool'.
 - Per visualizzare il PDF usiamo o qpdf (preinstallato in RPI) che però non supporta il partire già a schermo pieno o xpdf (che però bisogna vedere se supporta le due pagine affiancate, che potrebbero essere utili).
 
@@ -25,6 +25,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - (PDFmixtools)[https://snapcraft.io/install/pdfmixtool/raspbian]
 - per mappare GPIO a keystrokes si può usare (RetroGame)[https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software]
 - (lanciare il lettore PDF automaticamente)[https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup#method-2-autostart]
+- (aggiungere icone sul desktop)[https://raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/desktop-shortcuts]
 
 ## i pulsanti... ##
 
