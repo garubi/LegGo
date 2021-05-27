@@ -29,6 +29,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - (lanciare il lettore PDF automaticamente)[https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup#method-2-autostart]
 - (aggiungere icone sul desktop)[https://raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/desktop-shortcuts]
 - Raspberry Kiosk how to - (con indicazioni su come evitare che vada in risparmio energetico Standby)[https://pimylifeup.com/raspberry-pi-kiosk/]
+- alcune soluzioni per forzare il visualizzatore in primo piano e non perdere il focus [https://www.raspberrypi.org/forums/viewtopic.php?t=236620]
 
 ## i pulsanti... ##
 - mostra a schermo intero (automatizziamo in qualche modo???)
