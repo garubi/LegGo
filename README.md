@@ -7,6 +7,8 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - Potrebbe essere utile prevedere alcuni pulsanti aggiuntivi direttamente collegato ai GPIO di RPI per alcune funzioni utili durante lo show.
 - L'uso di tastiera e mouse può essere previsto per la fase di configurazione.
 - Almeno una porta USB deve essere accessibile per poter caricare i file PDF.
+- Assicuriamoci che il raspberry o lo schermo non vadano mai in risparmio energetico/screensaver ecc
+- per essere certi che i pedali e i pulsanti funzionino penso che dobbiamo forzare la finestra del visualizzatore PDF ad essere sempre in primo piano (e forse non basta...) o forse basta che sia a tutto schermo (?)
 
 ## funzionamento ##
 - al boot deve aprirsi automaticamente il lettore PDF caricando l'ultimo documento aperto. (in questo modo possiamo accendere e usare LeggS subito, senza bisogno di fare altro).
@@ -26,6 +28,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - per mappare GPIO a keystrokes si può usare (RetroGame)[https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software]
 - (lanciare il lettore PDF automaticamente)[https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup#method-2-autostart]
 - (aggiungere icone sul desktop)[https://raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/desktop-shortcuts]
+- Raspberry Kiosk how to - (con indicazioni su come evitare che vada in risparmio energetico Standby)[https://pimylifeup.com/raspberry-pi-kiosk/]
 
 ## i pulsanti... ##
 - mostra a schermo intero (automatizziamo in qualche modo???)
