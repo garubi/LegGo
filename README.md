@@ -1,4 +1,4 @@
-# leggS
+# LeggS
 Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando un vecchio monitor e un raspberry PI
 
 ## descrizione ##
