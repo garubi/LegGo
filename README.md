@@ -28,7 +28,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - (aggiungere icone sul desktop)[https://raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/desktop-shortcuts]
 
 ## i pulsanti... ##
-
+- mostra a schermo intero (automatizziamo in qualche modo???)
 - pagina avanti (? duplica il pedale... ? ) 
 - pagina indietro (? duplica il pedale... ? ) 
 - due pagine affianate/una pagina
