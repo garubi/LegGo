@@ -46,3 +46,4 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - predisposto qpdfview (visualizzatore pdf) per aprirsi sempre con l'ultimo documento aperto. rimosse toolbar. ecc ecc 
 - impostato autostart per qpdfview per aprirsi automaticamente al boot
 - installato retrogame per inviare keystroke dai GPIO (per abilitare pedali e pulsanti)
+- installato wmctrl per inviare il comando che forza il visualizzatore a stare in primo piano
