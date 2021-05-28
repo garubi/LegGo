@@ -44,3 +44,5 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 ## log della preparazione ##
 - create le due cartelle 'testi-accordi' (che contertrà i file singoli delle canzoni) e 'scalette' (che conterrà i file con le canzoni in ordine per i vari show)
 - predisposto qpdfview (visualizzatore pdf) per aprirsi sempre con l'ultimo documento aperto. rimosse toolbar. ecc ecc 
+- impostato autostart per qpdfview per aprirsi automaticamente al boot
+- installato retrogame per inviare keystroke dai GPIO (per abilitare pedali e pulsanti)
