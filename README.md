@@ -31,8 +31,6 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - Raspberry Kiosk how to - (con indicazioni su come evitare che vada in risparmio energetico Standby)[https://pimylifeup.com/raspberry-pi-kiosk/]
 - alcune soluzioni per forzare il visualizzatore in primo piano e non perdere il focus [https://www.raspberrypi.org/forums/viewtopic.php?t=236620]
 
-You can poll for the opened window instead of hoping your sleep will be a sufficient duration with a loop like this: (while true; do wmctrl -l | egrep -iq 'imagemagick:' && break; sleep 0.1s; done)
-
 
 ## i pulsanti... ##
 - mostra a schermo intero (automatizziamo in qualche modo???)
