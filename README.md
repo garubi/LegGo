@@ -50,5 +50,5 @@ You can poll for the opened window instead of hoping your sleep will be a suffic
 - impostato autostart per qpdfview per aprirsi automaticamente al boot
 - installato retrogame per inviare keystroke dai GPIO (per abilitare pedali e pulsanti)
 - installato wmctrl per inviare il comando che forza il visualizzatore a stare in primo piano ( wmctrl -r qpdfview -b add,above )
-- scritto e installato lo script che lancia qpdfview, lo espande a pieno schermo e poi lo fissa in primo piano (soluzione non ottimale perchè può comunque perdere il focus
+- scritto e installato lo script che lancia qpdfview, lo espande a pieno schermo e poi lo fissa in primo piano (soluzione non ottimale perchè può comunque perdere il focus) - potrei risolvere se ogni volta che ricevo un comando dai pedali riporto il focus su qpdfview con il solito magico wmctrl
 
