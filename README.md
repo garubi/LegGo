@@ -33,11 +33,13 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 
 
 ## i pulsanti... ##
-- mostra a schermo intero (automatizziamo in qualche modo???)
+- spegni tutto (magari con longpress sennò è un rischio...)
+- lancia visualizzatore
 - pagina avanti (? duplica il pedale... ? ) 
 - pagina indietro (? duplica il pedale... ? ) 
 - due pagine affianate/una pagina
 - fit to page /larghezza pagina
+- bianco/nero
 - zoom +
 - zoom -
 - open new file (ma poi come scelgo le altre scalette??)
