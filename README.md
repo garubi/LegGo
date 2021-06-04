@@ -30,6 +30,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - (aggiungere icone sul desktop)[https://raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/desktop-shortcuts]
 - Raspberry Kiosk how to - (con indicazioni su come evitare che vada in risparmio energetico Standby)[https://pimylifeup.com/raspberry-pi-kiosk/]
 - alcune soluzioni per forzare il visualizzatore in primo piano e non perdere il focus [https://www.raspberrypi.org/forums/viewtopic.php?t=236620]
+- impostare monitor in verticale/portrait: https://www.raffaelechiatto.com/ruotare-lo-schermo-con-il-raspberry/
 
 
 ## i pulsanti... ##
@@ -52,5 +53,5 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - installato wmctrl per inviare il comando che forza il visualizzatore a stare in primo piano ( wmctrl -r qpdfview -b add,above )
 - scritto e installato lo script che lancia qpdfview, lo espande a pieno schermo e poi lo fissa in primo piano (soluzione non ottimale perchè può comunque perdere il focus) - potrei risolvere se ogni volta che ricevo un comando dai pedali riporto il focus su qpdfview con il solito magico wmctrl
 - installato pdfmixtool
-- 
+- modificato /boot/config.txt per usare il monito in modalità verticale/portrait (ma la risoluzione è "stirata", va sistemata)
 
