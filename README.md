@@ -3,7 +3,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 
 ## descrizione ##
 - Il leggio è costituito da un monitor ldc a cui è collegato un Raspberry PI (abbreviato in RPI), il tutto inserito in una robusta valigetta che consente di usarlo semplicemente aprendola e accdendendo il tutto. 
-- Idealmente dovrebbe funzionare in visualizzazione" senza l'ausilio di tastiera e mouse. Per fare questo è previsto che il PDF col testo possa essere sfogliato con un pedale USB.
+- Idealmente dovrebbe funzionare in visualizzazione" senza l'ausilio di tastiera e mouse. Per fare questo è previsto che il PDF col testo possa essere sfogliato con un pedale ~~USB~~ collegato ai due GPIO.
 - Potrebbe essere utile prevedere alcuni pulsanti aggiuntivi direttamente collegato ai GPIO di RPI per alcune funzioni utili durante lo show.
 - L'uso di tastiera e mouse può essere previsto per la fase di configurazione.
 - Almeno una porta USB deve essere accessibile per poter caricare i file PDF.
@@ -31,6 +31,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - Raspberry Kiosk how to - (con indicazioni su come evitare che vada in risparmio energetico Standby)[https://pimylifeup.com/raspberry-pi-kiosk/]
 - alcune soluzioni per forzare il visualizzatore in primo piano e non perdere il focus [https://www.raspberrypi.org/forums/viewtopic.php?t=236620]
 - impostare monitor in verticale/portrait: https://www.raffaelechiatto.com/ruotare-lo-schermo-con-il-raspberry/
+- un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html
 
 
 ## i pulsanti... ##
@@ -38,7 +39,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - lancia visualizzatore
 - pagina avanti (? duplica il pedale... ? ) 
 - pagina indietro (? duplica il pedale... ? ) 
-- due pagine affianate/una pagina
+- ~~due pagine affiancate/una pagina~~ (non ci serve più visto cje il monitor è verticale)
 - fit to page /larghezza pagina
 - bianco/nero
 - zoom +
