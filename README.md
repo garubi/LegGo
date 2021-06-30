@@ -32,6 +32,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - alcune soluzioni per forzare il visualizzatore in primo piano e non perdere il focus [https://www.raspberrypi.org/forums/viewtopic.php?t=236620]
 - impostare monitor in verticale/portrait: https://www.raffaelechiatto.com/ruotare-lo-schermo-con-il-raspberry/
 - un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html
+- risoluzione monitor https://www.raspberrypi.org/forums/viewtopic.php?p=194596&sid=e74141dc5bfb9394f4ac2d1b7f068d7f#p194596 https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
 
 
 ## i pulsanti... ##
