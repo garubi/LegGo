@@ -33,7 +33,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - impostare monitor in verticale/portrait: https://www.raffaelechiatto.com/ruotare-lo-schermo-con-il-raspberry/
 - un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html
 - risoluzione monitor https://www.raspberrypi.org/forums/viewtopic.php?p=194596&sid=e74141dc5bfb9394f4ac2d1b7f068d7f#p194596 https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
-- GPIO LCD Menu using buttons https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=23375
+- GPIO LCD Menu using buttons https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=23375 e una specie di codice finito: https://www.raspberrypi.org/forums/viewtopic.php?p=258411&sid=82730944e5581d970a6af7209e2a21b2#p258411
 
 ## i pulsanti... ##
 
