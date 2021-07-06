@@ -33,18 +33,19 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - impostare monitor in verticale/portrait: https://www.raffaelechiatto.com/ruotare-lo-schermo-con-il-raspberry/
 - un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html
 - risoluzione monitor https://www.raspberrypi.org/forums/viewtopic.php?p=194596&sid=e74141dc5bfb9394f4ac2d1b7f068d7f#p194596 https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
-
+- GPIO LCD Menu using buttons https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=23375
 
 ## i pulsanti... ##
-1 spegni tutto (magari con longpress sennò è un rischio...)
-1 bianco/nero
-1 fit to page /larghezza pagina
-1 lancia visualizzatore
-1 pagina avanti (? duplica il pedale... ? ) 
-1 pagina indietro (? duplica il pedale... ? ) 
-1 zoom +
-1 zoom -
-1 open new file (ma poi come scelgo le altre scalette??)
+
+1. spegni tutto (magari con longpress sennò è un rischio...)
+1. bianco/nero
+1. fit to page /larghezza pagina
+1. lancia visualizzatore
+1. pagina avanti (? duplica il pedale... ? ) 
+1. pagina indietro (? duplica il pedale... ? ) 
+1. zoom +
+1. zoom -
+1. open new file (ma poi come scelgo le altre scalette??)
 
 ## log della preparazione ##
 - create le due cartelle 'testi-accordi' (che contertrà i file singoli delle canzoni) e 'scalette' (che conterrà i file con le canzoni in ordine per i vari show)
