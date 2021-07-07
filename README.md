@@ -31,7 +31,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - Raspberry Kiosk how to - (con indicazioni su come evitare che vada in risparmio energetico Standby)[https://pimylifeup.com/raspberry-pi-kiosk/]
 - alcune soluzioni per forzare il visualizzatore in primo piano e non perdere il focus [https://www.raspberrypi.org/forums/viewtopic.php?t=236620]
 - impostare monitor in verticale/portrait: https://www.raffaelechiatto.com/ruotare-lo-schermo-con-il-raspberry/
-- un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html https://www.raspberrypi.org/forums/viewtopic.php?t=223012
+- un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=206921#p1280779
 - risoluzione monitor https://www.raspberrypi.org/forums/viewtopic.php?p=194596&sid=e74141dc5bfb9394f4ac2d1b7f068d7f#p194596 https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
 - GPIO LCD Menu using buttons https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=23375 e una specie di codice finito: https://www.raspberrypi.org/forums/viewtopic.php?p=258411&sid=82730944e5581d970a6af7209e2a21b2#p258411
 - How to use gpio buttons in a .sh file? https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=111883&start=25
