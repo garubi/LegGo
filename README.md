@@ -68,4 +68,5 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - scritto e installato lo script che lancia qpdfview, lo espande a pieno schermo e poi lo fissa in primo piano (soluzione non ottimale perchè può comunque perdere il focus) - potrei risolvere se ogni volta che ricevo un comando dai pedali riporto il focus su qpdfview con il solito magico wmctrl
 - installato pdfmixtool
 - modificato /boot/config.txt per usare il monito in modalità verticale/portrait (ma la risoluzione è "stirata", va sistemata)
+- modificato /boot/config.txt per abilitare GPIO3 con pressione di 5 secondi a fare lo shutdown. un nuovo press riavvia il PI
 
