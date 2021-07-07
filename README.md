@@ -39,6 +39,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - per mappare GPIO a keystrokes si può usare (RetroGame)[https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software] (gitHub project)[https://github.com/adafruit/Adafruit-Retrogame]
 - un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=206921#p1280779 (qui allungare il tempo in cui va tenuto premuto: https://www.raspberrypi.org/forums/viewtopic.php?p=1548142#p1548142) (See '/boot/overlay/README.*' for more information.)
 - GPIO LCD Menu using buttons https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=23375 e una specie di codice finito: https://www.raspberrypi.org/forums/viewtopic.php?p=258411&sid=82730944e5581d970a6af7209e2a21b2#p258411
+- https://www.raspberrypi.org/forums/viewtopic.php?p=1455499#p1455499
 - How to use gpio buttons in a .sh file? https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=111883&start=25
 - intro a xbindkeys (idea è generare keypress con retrogame e generare automazioni con altri programmi o script)
 - lunga lista di tools per AutoHokey replicate https://www.autohotkey.com/boards/viewtopic.php?t=9806
