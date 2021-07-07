@@ -43,7 +43,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - https://www.raspberrypi.org/forums/viewtopic.php?p=1455499#p1455499
 - How to use gpio buttons in a .sh file? https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=111883&start=25
 - intro a xbindkeys (idea è generare keypress con retrogame e generare automazioni con altri programmi o script)
-- oppure [triggerhappy](https://github.com/wertarbyte/triggerhappy) ([esempio per il software Volumio](https://community.volumio.org/t/keyboard-shortcuts-with-triggerhappy/4826/15)) [man page](http://manpages.ubuntu.com/manpages/bionic/man1/thd.1.html)
+- oppure [triggerhappy](https://github.com/wertarbyte/triggerhappy) ([esempio per il software Volumio](https://community.volumio.org/t/keyboard-shortcuts-with-triggerhappy/4826/15)) [man page](http://manpages.ubuntu.com/manpages/bionic/man1/thd.1.html) - questo consente anche di avere pulsanti che cambiano il "mode" o il "bank"...
 - lunga lista di tools per AutoHokey replicate https://www.autohotkey.com/boards/viewtopic.php?t=9806
 - Autokey https://code.google.com/archive/p/autokey/ 
 - 
