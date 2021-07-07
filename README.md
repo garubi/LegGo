@@ -42,7 +42,7 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - GPIO LCD Menu using buttons https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=23375 e una specie di codice finito: https://www.raspberrypi.org/forums/viewtopic.php?p=258411&sid=82730944e5581d970a6af7209e2a21b2#p258411
 - https://www.raspberrypi.org/forums/viewtopic.php?p=1455499#p1455499
 - How to use gpio buttons in a .sh file? https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=111883&start=25
-- intro a xbindkeys (idea è generare keypress con retrogame e generare automazioni con altri programmi o script) [tutorial/esempio](https://www.linux.com/news/start-programs-pro-xbindkeys/)
+- intro a xbindkeys (idea è generare keypress con retrogame e generare automazioni con altri programmi o script) [tutorial/esempio](https://www.linux.com/news/start-programs-pro-xbindkeys/) [altro](https://mauriziosiagri.wordpress.com/tag/xbindkeys-config/) [oppure qui](http://xahlee.info/linux/linux_xbindkeys_tutorial.html) [col suo compare XVKBD](http://xahlee.info/linux/linux_xvkbd_tutorial.html)
 - oppure [triggerhappy](https://github.com/wertarbyte/triggerhappy) ([esempio per il software Volumio](https://community.volumio.org/t/keyboard-shortcuts-with-triggerhappy/4826/15)) [man page](http://manpages.ubuntu.com/manpages/bionic/man1/thd.1.html) - questo consente anche di avere pulsanti che cambiano il "mode" o il "bank": https://github.com/wertarbyte/triggerhappy/issues/4
 - lunga lista di tools per AutoHokey replicate https://www.autohotkey.com/boards/viewtopic.php?t=9806
 - Autokey https://code.google.com/archive/p/autokey/ 
