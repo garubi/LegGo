@@ -24,15 +24,20 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 
 
 ## links ##
+### applicazioni principali e configurazione generale ###
 - (PDFmixtools)[https://snapcraft.io/install/pdfmixtool/raspbian]
-- per mappare GPIO a keystrokes si può usare (RetroGame)[https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software] (gitHub project)[https://github.com/adafruit/Adafruit-Retrogame]
 - (lanciare il lettore PDF automaticamente)[https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup#method-2-autostart]
+- alcune soluzioni per forzare il visualizzatore in primo piano e non perdere il focus [https://www.raspberrypi.org/forums/viewtopic.php?t=236620]
 - (aggiungere icone sul desktop)[https://raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/desktop-shortcuts]
 - Raspberry Kiosk how to - (con indicazioni su come evitare che vada in risparmio energetico Standby)[https://pimylifeup.com/raspberry-pi-kiosk/]
-- alcune soluzioni per forzare il visualizzatore in primo piano e non perdere il focus [https://www.raspberrypi.org/forums/viewtopic.php?t=236620]
+
+### Monitor ###
 - impostare monitor in verticale/portrait: https://www.raffaelechiatto.com/ruotare-lo-schermo-con-il-raspberry/
-- un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=206921#p1280779
 - risoluzione monitor https://www.raspberrypi.org/forums/viewtopic.php?p=194596&sid=e74141dc5bfb9394f4ac2d1b7f068d7f#p194596 https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
+
+### GPIO ###
+- per mappare GPIO a keystrokes si può usare (RetroGame)[https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software] (gitHub project)[https://github.com/adafruit/Adafruit-Retrogame]
+- un pulsante per spegnimento e avvio: https://www.stderr.nl/Blog/Hardware/RaspberryPi/PowerButton.html https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=206921#p1280779 (qui allungare il tempo in cui va tenuto premuto: https://www.raspberrypi.org/forums/viewtopic.php?p=1548142#p1548142) 
 - GPIO LCD Menu using buttons https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=23375 e una specie di codice finito: https://www.raspberrypi.org/forums/viewtopic.php?p=258411&sid=82730944e5581d970a6af7209e2a21b2#p258411
 - How to use gpio buttons in a .sh file? https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=111883&start=25
 - intro a xbindkeys (idea è generare keypress con retrogame e generare automazioni con altri programmi o script)
@@ -45,12 +50,11 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 1. spegni tutto (magari con longpress sennò è un rischio...)
 1. bianco/nero
 1. fit to page /larghezza pagina
-1. lancia visualizzatore
+1. lancia visualizzatore & open new file (ma poi come scelgo le altre scalette??)
 1. pagina avanti (? duplica il pedale... ? ) 
 1. pagina indietro (? duplica il pedale... ? ) 
 1. zoom +
 1. zoom -
-1. open new file (ma poi come scelgo le altre scalette??)
 
 ## log della preparazione ##
 - create le due cartelle 'testi-accordi' (che contertrà i file singoli delle canzoni) e 'scalette' (che conterrà i file con le canzoni in ordine per i vari show)
