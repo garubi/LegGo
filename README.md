@@ -69,4 +69,5 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - installato pdfmixtool
 - modificato /boot/config.txt per usare il monito in modalità verticale/portrait (ma la risoluzione è "stirata", va sistemata)
 - modificato /boot/config.txt per abilitare GPIO3 con pressione di 5 secondi a fare lo shutdown. un nuovo press riavvia il PI
+- configurato RetroGame per pagina avanti e indietro con i due GPIO che useremo con i pedali e con un GPIO per alternare bianco/nero nel lettore PDF
 
