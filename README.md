@@ -1,26 +1,26 @@
 # LegGo
 Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando un vecchio monitor e un raspberry PI
 
-## descrizione ##
-- Il leggio è costituito da un monitor ldc a cui è collegato un Raspberry PI (abbreviato in RPI), il tutto inserito in una robusta valigetta che consente di usarlo semplicemente aprendola e accdendendo il tutto. 
-- Idealmente dovrebbe funzionare in visualizzazione" senza l'ausilio di tastiera e mouse. Per fare questo è previsto che il PDF col testo possa essere sfogliato con un pedale ~~USB~~ collegato ai due GPIO.
+## descrizione e requisiti ##
+- Il leggio è costituito da un monitor ldc, orientato in verticale, a cui è collegato un Raspberry PI (abbreviato in RPI), il tutto inserito in una robusta valigetta che consente di usarlo semplicemente aprendola e accdendendo il tutto. 
+- Idealmente dovrebbe funzionare "in visualizzazione" senza l'ausilio di tastiera e mouse. Per fare questo è previsto che il PDF col testo possa essere sfogliato con un pedale ~~USB~~ collegato a due GPIO.
 - Potrebbe essere utile prevedere alcuni pulsanti aggiuntivi direttamente collegato ai GPIO di RPI per alcune funzioni utili durante lo show.
 - L'uso di tastiera e mouse può essere previsto per la fase di configurazione.
 - Almeno una porta USB deve essere accessibile per poter caricare i file PDF.
-- Assicuriamoci che il raspberry o lo schermo non vadano mai in risparmio energetico/screensaver ecc
-- per essere certi che i pedali e i pulsanti funzionino penso che dobbiamo forzare la finestra del visualizzatore PDF ad essere sempre in primo piano (e forse non basta...) o forse basta che sia a tutto schermo (?)
+
 
 ## funzionamento ##
-- al boot deve aprirsi automaticamente il lettore PDF caricando l'ultimo documento aperto. (in questo modo possiamo accendere e usare LeggS subito, senza bisogno di fare altro).
-- se abbiamo bisogno di creare/configurare la scaletta chiudiamo il lettore PDF (come?) e lanciamo PDFmixtools (come?).
-
 - Durante lo show usiamo un file PDF generato ad hoc sulla base della scaletta dello show, indicativamente con una canzone per pagina.
-- Per andare avanti e indietro usiamo un due pedali collegati via USB (vedi progetto PushPush) che inviano i due "keypress" necessari per pagina avanti e pagina indietro.
+- al boot deve aprirsi automaticamente il lettore PDF caricando l'ultimo documento aperto. (in questo modo possiamo accendere e usare LegGO subito, senza bisogno di fare altro).
+- Per andare avanti e indietro usiamo due pedali collegati ai GPIO che inviano i due "keypress" necessari per pagina avanti e pagina indietro.
 - Il file con i testi show può 
   - essere preparato prima e poi caricato nel raspberry oppure
   - generato direttamente sul raspberry partendo dai  testi delle canzoni salvati in singoli file PDF (un file per ogni canzone) e sempre disponibili nella cartella "originali" sul RPI.
 - Per generare il file dello show partendo dai singoli pdf usiamo 'pdfmixtool'.
 - Per visualizzare il PDF usiamo o qpdf (preinstallato in RPI) che però non supporta il partire già a schermo pieno o xpdf (che però bisogna vedere se supporta le due pagine affiancate, che potrebbero essere utili).
+- se abbiamo bisogno di creare/configurare la scaletta, colleghiamo la tastiera e il mouse, chiudiamo il lettore PDF e lanciamo PDFmixtools.
+- Assicuriamoci che il raspberry o lo schermo non vadano mai in risparmio energetico/screensaver ecc
+- per essere certi che i pedali e i pulsanti funzionino penso che dobbiamo forzare la finestra del visualizzatore PDF ad essere sempre in primo piano (e forse non basta...) o forse basta che sia a tutto schermo (?)
 
 
 ## links ##
