@@ -31,6 +31,10 @@ Appunti disordinati per la realizzazione di un leggio per testi in PDF, usando u
 - (aggiungere icone sul desktop)[https://raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/desktop-shortcuts]
 - Raspberry Kiosk how to - (con indicazioni su come evitare che vada in risparmio energetico Standby)[https://pimylifeup.com/raspberry-pi-kiosk/]
 
+#### update marzo 2022 ####
+- https://opensource.com/article/19/2/manipulating-pdfs-linux PDF shuffle sembra meglio di PDFmixtools perchè permette di aggiungere e spostare file che già sono in scaletta
+- https://itsfoss.com/pdfarranger-app/ PDFArranger dovrebbe esserne il successore... temo sia molto pesante...
+
 ### Monitor ###
 - impostare monitor in verticale/portrait: https://www.raffaelechiatto.com/ruotare-lo-schermo-con-il-raspberry/
 - risoluzione monitor https://www.raspberrypi.org/forums/viewtopic.php?p=194596&sid=e74141dc5bfb9394f4ac2d1b7f068d7f#p194596 https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
